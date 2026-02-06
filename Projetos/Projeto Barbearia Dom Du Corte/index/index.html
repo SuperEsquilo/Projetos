@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Dom Du Corte - Estilo e Tradição</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/logo.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Lato:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <!-- Assuming logo.png is white/transparent friendly -->
+                    <img src="assets/logo.png?v=5" alt="Dom Du Corte Logo">
+                </div>
+                <div class="nav-links">
+                    <a href="#home">Início</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#services">Serviços</a>
+                    <a href="#contact">Contato</a>
+                </div>
+                <!-- Direct link to Booksy as requested -->
+                <a href="https://booksy.com/pt-br/18786_barbearia-dom-du-corte-ilha-solteira-sp_barbearias_871808_ilha-solteira"
+                    target="_blank" class="btn btn-booksy-float">
+                    <img src="assets/booksy.png" alt="Booksy" style="width: 20px; height: 20px;">
+                    Agendar Agora
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1>Dom Du Corte</h1>
+            <p>Mais que um corte, uma experiência de estilo.</p>
+            <div class="hero-btns">
+                <a href="https://booksy.com/pt-br/18786_barbearia-dom-du-corte-ilha-solteira-sp_barbearias_871808_ilha-solteira"
+                    target="_blank" class="btn btn-primary">Agendar Horário</a>
+                <a href="#about" class="btn btn-outline">Conheça o Espaço</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img">
+                    <img src="assets/Corte.png" alt="Interior Barbearia">
+                </div>
+                <div class="about-text">
+                    <span class="section-subtitle">QUEM SOMOS</span>
+                    <h2 class="section-title">Tradição & Modernidade</h2>
+                    <p>Na Dom Du Corte, entendemos que o visual do homem moderno é seu cartão de visitas. Combinamos as
+                        técnicas clássicas da barbearia tradicional com as tendências mais atuais.</p>
+                    <p>Ambiente descontraído, cerveja gelada, e profissionais qualificados prontos para elevar sua
+                        autoestima.</p>
+                    <ul style="list-style: none; margin-top: 20px;">
+                        <li style="margin-bottom: 10px;"><i class="fa-solid fa-check"
+                                style="color: var(--color-booksy); margin-right: 10px;"></i> Ambiente Climatizado</li>
+                        <li style="margin-bottom: 10px;"><i class="fa-solid fa-check"
+                                style="color: var(--color-booksy); margin-right: 10px;"></i> Profissionais
+                            Especializados</li>
+                        <li style="margin-bottom: 10px;"><i class="fa-solid fa-check"
+                                style="color: var(--color-booksy); margin-right: 10px;"></i> Produtos Premium</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding services">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-subtitle">ALGUNS DE NOSSOS SERVIÇOS</span>
+                <h2 class="section-title">Que oferecemos</h2>
+            </div>
+
+            <div class="services-grid">
+                <!-- Corte -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-scissors"></i>
+                    </div>
+                    <h3>Corte de Cabelo</h3>
+                    <p>Degradê, social, militar ou tesoura. O estilo que você procura com a precisão que você merece.
+                    </p>
+                    <div class="price">R$ 50,00</div>
+                </div>
+
+                <!-- Barba -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-bacon"></i> <!-- closest to razor vibe in free fontawesome sometimes -->
+                    </div>
+                    <h3>Barba Completa</h3>
+                    <p>Barboterapia com toalha quente, alinhamento e hidratação dos fios.</p>
+                    <div class="price">R$ 40,00</div>
+                </div>
+
+                <!-- Combo -->
+                <div class="service-card" style="border-color: var(--color-booksy);">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-crown"></i>
+                    </div>
+                    <h3>Combo Dom</h3>
+                    <p>A experiência completa. Corte + Barba + Sobrancelha. Saia renovado.</p>
+                    <div class="price">R$ 80,00</div>
+                </div>
+
+                <!-- Pezinho/Sobrancelha -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3>Acabamentos</h3>
+                    <p>Pezinho, sobrancelha e ajustes finais para manter o visual em dia.</p>
+                    <div class="price">R$ 20,00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booksy CTA Section -->
+    <section class="booksy-banner">
+        <div class="container">
+            <img src="assets/booksy.png" alt="Booksy Logo" class="booksy-logo-s" style="height: 50px; width: auto;">
+            <h2 style="font-size: 3rem; margin-bottom: 2rem;">Agende Pelo App</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Use o Booksy para ver nossos horários disponíveis e agendar seu corte em segundos. É rápido e prático.
+            </p>
+            <a href="https://booksy.com/pt-br/18786_barbearia-dom-du-corte-ilha-solteira-sp_barbearias_871808_ilha-solteira"
+                target="_blank" class="btn btn-primary" style="padding: 20px 60px; font-size: 1.2rem;">
+                AGENDAR AGORA
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="Dom Du Corte">
+                    <p>Estilo, tradição e excelência em cada corte.</p>
+                </div>
+
+                <div class="footer-info">
+                    <h4>Contato</h4>
+                    <p><i class="fa-solid fa-location-dot" style="margin-right: 10px; color: var(--color-booksy);"></i>
+                        Ilha Solteira - SP</p>
+                    <!-- Added a generic phone since one wasn't provided, user can edit -->
+                    <p><i class="fa-solid fa-phone" style="margin-right: 10px; color: var(--color-booksy);"></i> (18)
+                        99999-9999</p>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Siga-nos</h4>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <!-- Booksy Icon in Socials too -->
+                        <a href="https://booksy.com/pt-br/18786_barbearia-dom-du-corte-ilha-solteira-sp_barbearias_871808_ilha-solteira"
+                            target="_blank" title="Agendar no Booksy">
+                            <img src="assets/booksy.png" alt="B" style="width: 20px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Barbearia Dom Du Corte. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

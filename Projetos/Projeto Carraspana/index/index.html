@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carraspana Pizzeria | Sabor que Vicia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Carraspana</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li><a href="#about" class="nav-link">Sobre</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+            <a href="#menu" class="btn btn-primary">Fazer Pedido</a>
+            <div class="mobile-menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content container">
+                <h1 class="hero-title fade-up">Sabor que <span class="highlight">Vicia</span></h1>
+                <p class="hero-subtitle fade-up delay-1">A verdadeira experiência da pizza artesanal, feita com paixão e
+                    ingredientes de elite.</p>
+                <div class="hero-buttons fade-up delay-2">
+                    <a href="#menu" class="btn btn-primary pulse">Ver Cardápio</a>
+                    <a href="#about" class="btn btn-outline">Conheça a Casa</a>
+                </div>
+            </div>
+            <div class="hero-scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <section id="services" class="services section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Nossa Excelência</h2>
+                    <p class="section-subtitle">Por que a Carraspana é incomparável</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card" data-tilt>
+                        <div class="service-img-wrapper">
+                            <img src="assets/service-prep.png" alt="Preparo Artesanal" class="service-img">
+                        </div>
+                        <div class="service-content">
+                            <h3>Preparo Artesanal</h3>
+                            <p>Massa de longa fermentação, aberta à mão, garantindo leveza e crocância inigualáveis.</p>
+                        </div>
+                    </div>
+                    <div class="service-card" data-tilt>
+                        <div class="service-img-wrapper">
+                            <img src="assets/service-ingredients.png" alt="Ingredientes Frescos" class="service-img">
+                        </div>
+                        <div class="service-content">
+                            <h3>Ingredientes Premium</h3>
+                            <p>Selecionados rigorosamente. Do tomate pelati italiano ao manjericão fresquinho da horta.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service-card" data-tilt>
+                        <div class="service-img-wrapper">
+                            <img src="assets/service-del ivery.png" alt="Entrega Flash" class="service-img">
+                        </div>
+                        <div class="service-content">
+                            <h3>Entrega Flash</h3>
+                            <p>Sua pizza chega quentinha e rápido. Tecnologia de ponta para monitorar seu pedido.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu section-padding bg-darker">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Favoritas da Casa</h2>
+                    <p class="section-subtitle">Escolha sua perdição</p>
+                </div>
+                <div class="menu-grid">
+                    <!-- Pizza 1 -->
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <i class="fas fa-pizza-slice placeholder-icon"></i>
+                        </div>
+                        <div class="menu-details">
+                            <div class="menu-header">
+                                <h3>Carraspana Especial</h3>
+                                <span class="price">R$ 65,00</span>
+                            </div>
+                            <p class="menu-desc">Molho de tomate pelati, mozzarella di bufala, presunto parma e rúcula.
+                            </p>
+                            <button class="btn btn-sm">Fazer Pedido</button>
+                        </div>
+                    </div>
+                    <!-- Pizza 2 -->
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <i class="fas fa-pizza-slice placeholder-icon"></i>
+                        </div>
+                        <div class="menu-details">
+                            <div class="menu-header">
+                                <h3>Calabresa Defumada</h3>
+                                <span class="price">R$ 52,00</span>
+                            </div>
+                            <p class="menu-desc">Calabresa artesanal defumada, cebola roxa caramelizada e orégano
+                                fresco.</p>
+                            <button class="btn btn-sm">Fazer Pedido</button>
+                        </div>
+                    </div>
+                    <!-- Pizza 3 -->
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <i class="fas fa-pizza-slice placeholder-icon"></i>
+                        </div>
+                        <div class="menu-details">
+                            <div class="menu-header">
+                                <h3>Quatro Queijos</h3>
+                                <span class="price">R$ 58,00</span>
+                            </div>
+                            <p class="menu-desc">Mozzarella, gorgonzola, parmesão capa preta e catupiry original.</p>
+                            <button class="btn btn-sm">Fazer Pedido</button>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="text-center mt-4">
+                    <a href="#" class="btn btn-outline">Ver Cardápio Completo</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="cta section-padding">
+            <div class="cta-overlay"></div>
+            <div class="container cta-content text-center">
+                <h2>Pronto para pedir?</h2>
+                <p>Não passe vontade. Peça agora e receba no conforto da sua casa.</p>
+                <a href="#menu" class="btn btn-primary pulse-huge">Fazer Pedido</a>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Carraspana</h3>
+                    <p>A melhor pizza da cidade, feita com amor e tradição.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Contato</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Rua das Pizzas, 123 - Centro</li>
+                        <li><i class="fas fa-phone"></i> (11) 99999-9999</li>
+                        <li><i class="fas fa-envelope"></i> contato@carraspana.com.br</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Horários</h3>
+                    <ul class="hours-list">
+                        <li>Ter - Qui: 18h - 23h</li>
+                        <li>Sex - Dom: 18h - 00h</li>
+                        <li>Seg: Fechado</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <p>&copy; 2024 Carraspana Pizzeria. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".service-card"), {
+            max: 15,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.2,
+        });
+    </script>
+</body>
+
+</html>

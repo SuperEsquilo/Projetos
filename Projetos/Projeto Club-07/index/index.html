@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club7 - Snooker Bar & Pub</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- O arquivo foi salvo como index.css, mas o user pediu style.css na conversa anterior. No entanto, o arquivo aberto é index.css. Vou referenciar index.css -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="assets/logo.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Lato:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="Club7 Logo" class="logo-img">
+            </a>
+            <nav class="nav">
+                <ul class="nav-list" id="nav-list">
+                    <li><a href="#home" class="nav-link">Início</a></dli>
+                    <li><a href="#about" class="nav-link">O Club</a></li>
+                    <li><a href="#features" class="nav-link">Experiência</a></li>
+                    <li><a href="#menu" class="nav-link">Menu Lounge</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#contact" class="btn btn-primary">Reservar</a>
+                <div class="mobile-menu-icon" id="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Bem-vindo ao <span>Club7</span></h1>
+            <p class="hero-subtitle">O ponto de encontro definitivo para amantes de sinuca, boa música e drinks premium.
+            </p>
+            <div class="hero-buttons">
+                <a href="#features" class="btn btn-primary">Ver Atrações</a>
+                <a href="#menu" class="btn btn-outline">Nosso Cardápio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-img">
+            <!-- Background Image via CSS -->
+        </div>
+        <div class="about-content">
+            <span class="section-subtitle">Sobre Nós</span>
+            <h2 class="section-title" style="margin-left: 0; color: #000;">Experiência VIP</h2>
+            <!-- Override for correct color on light bg context if needed, but about has bg-secondary which is dark. Stick to white title. -->
+            <h2 class="section-title" style="margin-left: 0;">Mais que um Jogo</h2>
+            <p class="about-text">
+                O Club7 não é apenas um lugar para jogar sinuca. É um ambiente projetado para quem busca sofisticação,
+                conforto e diversão de alta qualidade. Com mesas profissionais, iluminação planejada e um bar completo,
+                proporcionamos momentos inesquecíveis.
+            </p>
+            <p class="about-text">
+                Seja para um happy hour com os amigos, um campeonato amador ou apenas para relaxar ouvindo boa música, o
+                Club7 é o seu lugar.
+            </p>
+            <div style="margin-top: 30px; display: flex; gap: 20px;">
+                <div>
+                    <h3 style="color: var(--primary-color); font-size: 2rem;">10+</h3>
+                    <p style="color: #ccc;">Mesas Profissionais</p>
+                </div>
+                <div>
+                    <h3 style="color: var(--primary-color); font-size: 2rem;">50+</h3>
+                    <p style="color: #ccc;">Drinks Exclusivos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section-padding features">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-subtitle">O Que Oferecemos</span>
+                <h2 class="section-title">A Experiência Club7</h2>
+            </div>
+
+            <div class="features-grid">
+                <!-- Card 1 -->
+                <div class="feature-card">
+                    <i class="fas fa-bullseye feature-icon"></i>
+                    <h3 class="feature-title">Sinuca Profissional</h3>
+                    <p class="feature-text">Mesas de padrão internacional, tacos balanceados e o ambiente perfeito para
+                        suas melhores jogadas.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="feature-card">
+                    <i class="fas fa-beer feature-icon"></i>
+                    <h3 class="feature-title">Pub & Bar</h3>
+                    <p class="feature-text">Uma seleção rigorosa de cervejas artesanais, chopps gelados e coquetéis
+                        preparados por mixologistas.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="feature-card">
+                    <i class="fas fa-music feature-icon"></i>
+                    <h3 class="feature-title">Música & Vibe</h3>
+                    <p class="feature-text">Playlists curadas e música ao vivo nos finais de semana para manter a
+                        energia sempre lá em cima.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="feature-card">
+                    <i class="fas fa-users feature-icon"></i>
+                    <h3 class="feature-title">Eventos Privados</h3>
+                    <p class="feature-text">Reserve nosso espaço para aniversários, reuniões corporativas e torneios
+                        exclusivos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section (Preview) -->
+    <section id="menu" class="section-padding menu-section">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-subtitle">Gastronomia & Drinks</span>
+                <h2 class="section-title">Favoritos do Lounge</h2>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Item 1 -->
+                <div class="menu-item">
+                    <div style="height: 200px; overflow: hidden;">
+                        <img src="assets/drink1.png" alt="Caipirinha Especial" class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <h4 class="menu-title">Caipirinha Club</h4>
+                            <span class="menu-price">R$ 25,00</span>
+                        </div>
+                        <p class="menu-desc">A clássica, feita com limão fresco, açúcar e cachaça premium.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="menu-item">
+                    <div style="height: 200px; overflow: hidden;">
+                        <img src="assets/drink2.png" alt="Drink Colorido" class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <h4 class="menu-title">Neon Vibes</h4>
+                            <span class="menu-price">R$ 30,00</span>
+                        </div>
+                        <p class="menu-desc">Um mix refrescante de sabores tropicais com um visual incrível.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="menu-item">
+                    <div style="height: 200px; overflow: hidden;">
+                        <img src="assets/beer.jpg" alt="Cerveja Corona" class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <h4 class="menu-title">Cerveja Gelada</h4>
+                            <span class="menu-price">R$ 18,00</span>
+                        </div>
+                        <p class="menu-desc">Corona Extra com limão, servida na temperatura ideal.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 40px;">
+                <a href="#" class="btn btn-outline">Ver Cardápio Completo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="hero-title" style="font-size: 3rem;">Pronto para Jogar?</h2>
+            <p style="color: #ddd; font-size: 1.2rem; margin-bottom: 30px;">Garanta sua mesa e venha curtir a melhor
+                noite da cidade.</p>
+            <a href="https://wa.me/seunumerodewhatsapp" target="_blank" class="btn btn-primary">
+                <i class="fab fa-whatsapp"></i> Reservar pelo WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>Club7</h4>
+                    <p>O melhor ambiente de sinuca e entretenimento da região. Venha nos visitar!</p>
+                    <div class="social-links" style="margin-top: 20px;">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Localização</h4>
+                    <p><i class="fas fa-map-marker-alt" style="color: var(--primary-color); margin-right: 10px;"></i>
+                        Rua dos Jogos, 777 - Centro</p>
+                    <p>Cidade - ES</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Horários</h4>
+                    <p>Seg - Qui: 18:00 - 00:00</p>
+                    <p>Sex - Sáb: 18:00 - 04:00</p>
+                    <p>Domingo: 16:00 - 23:00</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <a href="tel:+550000000000"><i class="fas fa-phone-alt"
+                            style="color: var(--primary-color); margin-right: 10px;"></i> (00) 00000-0000</a>
+                    <a href="mailto:contato@club7.com"><i class="fas fa-envelope"
+                            style="color: var(--primary-color); margin-right: 10px;"></i> contato@club7.com</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Club7. Todos os direitos reservados. Design by Antigravity.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

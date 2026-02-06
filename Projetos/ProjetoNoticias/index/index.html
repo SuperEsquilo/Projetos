@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometrisa News - Jornal de Barragens</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="assets/GeoNewsIcon.ico" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Background Slideshow -->
+    <div class="slideshow-container">
+        <div class="slide active" style="background-image: url('assets/dam1.png');"></div>
+        <div class="slide" style="background-image: url('assets/dam2.png');"></div>
+        <div class="slide" style="background-image: url('assets/dam3.png');"></div>
+        <div class="overlay"></div>
+    </div>
+
+    <header id="header">
+        <div class="container header-content">
+            <div class="logo">
+                <img src="assets/LogoGeometrisa.png" alt="Geometrisa News">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#news-grid" class="nav-link">Notícias</a></li>
+                    <li><a href="#about" class="nav-link">Quem Somos</a></li>
+                    <li><a href="#contact" class="nav-link contact-btn">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container hero-content">
+                <span class="badge">Destaque Global</span>
+                <h1 class="animate-text">Engenharia que Molda o Mundo</h1>
+                <p class="animate-text delay-1">As últimas notícias, inovações e histórias sobre as maiores barragens do
+                    planeta.</p>
+                <div class="hero-buttons animate-text delay-2">
+                    <a href="#news-grid" class="btn btn-primary">Ler Notícias</a>
+                    <a href="#" class="btn btn-secondary"><i class="fas fa-play"></i> Ver Vídeo</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="news-grid" class="container">
+            <div class="section-header">
+                <h2>Últimas Manchetes</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="grid">
+                <!-- Card 1 -->
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="assets/dam1.png" alt="Barragem 14 de Julho">
+                        <span class="category">Segurança</span>
+                    </div>
+                    <div class="card-content">
+                        <span class="date"><i class="far fa-clock"></i> 02 Mai, 2024</span>
+                        <h3>Barragem 14 de Julho (RS) sofre rompimento parcial</h3>
+                        <p>Parte da estrutura da usina hidrelétrica cedeu devido ao volume histórico de chuvas no Rio
+                            Grande do Sul.</p>
+                        <a href="https://www.itatiaia.com.br/brasil/2024/05/02/barragem-sofre-rompimento-parcial-devido-ao-temporal-no-rs"
+                            target="_blank" class="read-more">Ler no G1 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="assets/dam2.png" alt="Acordo Mariana">
+                        <span class="category">Meio Ambiente</span>
+                    </div>
+                    <div class="card-content">
+                        <span class="date"><i class="far fa-clock"></i> 25 Out, 2024</span>
+                        <h3>Novo acordo de R$ 132 bilhões para Mariana</h3>
+                        <p>Vale, BHP e Samarco assinaram a repactuação histórica para recuperação ambiental e
+                            indenizações.</p>
+                        <a href="https://veja.abril.com.br/coluna/radar/empresas-envolvidas-na-tragedia-de-mariana-fazem-acordo-de-r-132-bi/"
+                            target="_blank" class="read-more">Ler no G1 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="assets/dam3.png" alt="Estabilidade Barragens">
+                        <span class="category">Mineração</span>
+                    </div>
+                    <div class="card-content">
+                        <span class="date"><i class="far fa-clock"></i> 01 Abr, 2024</span>
+                        <h3>31 barragens no Brasil sem estabilidade garantida</h3>
+                        <p>Relatório da ANM destaca que dezenas de estruturas ainda operam em nível de alerta,
+                            principalmente em MG.</p>
+                        <a href="https://www.novojornal.com.br/minas-tem-31-barragens-embargadas-por-falta-de-estabilidade/"
+                            target="_blank" class="read-more">Ler no UOL <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Card 4 -->
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="assets/BarragemJati.png" alt="Barragem de Jati">
+                        <span class="category">Infraestrutura</span>
+                    </div>
+                    <div class="card-content">
+                        <span class="date"><i class="far fa-clock"></i> 15 Jan, 2024</span>
+                        <h3>R$ 5,5 milhões para obras na Barragem de Jati (CE)</h3>
+                        <p>O investimento visa garantir a manutenção corretiva da estrutura estratégica para a
+                            Transposição do Rio São Francisco.</p>
+                        <a href="assets/BarragemJati.png" target="_blank" class="read-more">Ler no G1 <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Card 5 -->
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1585970480901-90d6bb2a48b5?q=80&w=1974&auto=format&fit=crop"
+                            alt="Represa Dal Bó">
+                        <span class="category">Segurança</span>
+                    </div>
+                    <div class="card-content">
+                        <span class="date"><i class="far fa-clock"></i> 12 Mai, 2024</span>
+                        <h3>Risco de rompimento na Represa Dal Bó (RS)</h3>
+                        <p>Fissuras na estrutura levaram à evacuação de bairros em Caxias do Sul durante os temporais de
+                            maio.</p>
+                        <a href="https://noticias.uol.com.br/cotidiano/ultimas-noticias/2024/05/02/risco-rompimento-barragem-caxias-do-sul.htm"
+                            target="_blank" class="read-more">Ler no UOL <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Card 6 -->
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?q=80&w=2069&auto=format&fit=crop"
+                            alt="Barragem Alagamar">
+                        <span class="category">Monitoramento</span>
+                    </div>
+                    <div class="card-content">
+                        <span class="date"><i class="far fa-clock"></i> 10 Abr, 2024</span>
+                        <h3>Barragem de Alagamar (RN) atinge capacidade máxima</h3>
+                        <p>Com as fortes chuvas no Nordeste, a barragem começou a sangrar, ativando protocolos de
+                            monitoramento.</p>
+                        <a href="https://g1.globo.com/rn/rio-grande-do-norte/noticia/2020/05/04/maior-reservatorio-de-agua-do-rn-atinge-quase-56percent-de-sua-capacidade.ghtml"
+                            target="_blank" class="read-more">Ler no G1 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Card 7 -->
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop"
+                            alt="Segurança de Barragens">
+                        <span class="category">Segurança</span>
+                    </div>
+                    <div class="card-content">
+                        <span class="date"><i class="far fa-clock"></i> 30 Jan, 2026</span>
+                        <h3>Novas Diretrizes ICOLD para 2026</h3>
+                        <p>Protocolos internacionais de segurança prometem revolucionar o monitoramento de estruturas
+                            antigas.</p>
+                        <a href="https://www.icold-cigb.org/" class="read-more">Ler Matéria <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Card 8 -->
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2070&auto=format&fit=crop"
+                            alt="Hidrelétricas">
+                        <span class="category">Energia</span>
+                    </div>
+                    <div class="card-content">
+                        <span class="date"><i class="far fa-clock"></i> 29 Jan, 2026</span>
+                        <h3>Eficiência Energética em Pauta</h3>
+                        <p>Como a modernização das turbinas está aumentando a eficiência energética em 40% nas
+                            hidrelétricas.</p>
+                        <a href="https://www.gov.br/casacivil/pt-br/novopac/transicao-e-seguranca-energetica/eficiencia-energetica"
+                            class="read-more">Ler Matéria <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Card 9 -->
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="assets/dam1.png" alt="O Gigante de Concreto">
+                        <span class="category">Infraestrutura</span>
+                    </div>
+                    <div class="card-content">
+                        <span class="date"><i class="far fa-clock"></i> 28 Jan, 2026</span>
+                        <h3>O Futuro das Barragens de Rejeito</h3>
+                        <p>Discussões globais focam na descaracterização total de barragens de alto risco até 2030.</p>
+                        <a href="https://tratamentodeagua.com.br/vale-agua-barragem-rejeitos-sistema-norte/"
+                            class="read-more">Ler Matéria <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="section-padding about-section">
+            <div class="container">
+                <div class="about-wrapper">
+                    <div class="about-image">
+                        <img src="assets/EquipeGeometrisa.png" alt="Equipe Geometrisa">
+                    </div>
+                    <div class="about-content">
+                        <div class="section-header text-left">
+                            <h2>Quem Somos</h2>
+                            <div class="line-separator"></div>
+                        </div>
+                        <p>A <strong>Geometrisa</strong> é uma empresa líder em engenharia e segurança de barragens,
+                            comprometida em fornecer soluções inovadoras e confiáveis para o setor hidrelétrico e de
+                            mineração. Com décadas de experiência acumulada, nossa equipe multidisciplinar atua com
+                            rigor técnico e ética, garantindo a integridade dos empreendimentos e a segurança das
+                            comunidades.</p>
+                        <p>Nossa missão é transformar dados em segurança, utilizando tecnologia de ponta e metodologias
+                            avançadas para monitoramento, inspeção e análise de riscos. Acreditamos que a prevenção é o
+                            melhor investimento e trabalhamos incansavelmente para superar as expectativas de nossos
+                            clientes.</p>
+                        <div class="about-stats">
+                            <div class="about-stat-item">
+                                <h3>+20</h3>
+                                <p>Anos de Experiência</p>
+                            </div>
+                            <div class="about-stat-item">
+                                <h3>100%</h3>
+                                <p>Comprometimento</p>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn btn-primary" style="margin-top: 20px;">Fale com a Nossa Equipe</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container footer-content">
+            <div class="footer-grid">
+                <!-- Branding & Socials -->
+                <div class="footer-item footer-logo">
+                    <h3>Geometrisa News</h3>
+                    <p>Jornalismo sério e dedicado ao mundo da engenharia hidráulica e segurança de barragens.</p>
+                    <div class="footer-social-group" style="margin-top: 25px;">
+                        <h4>Siga-nos</h4>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/geometrisasegbar/"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Spacer -->
+                <div class="footer-item"></div>
+
+                <!-- Contact Info -->
+                <div class="footer-item footer-contact-info">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-phone"></i> (18) 9 9739-2680</li>
+                        <li><i class="fa-solid fa-envelope"></i> contato@geometrisa.com.br</li>
+                        <li><i class="fa-solid fa-location-dot"></i> Av. Atlântica, 1.659 – Box 33</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Geometrisa News. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
